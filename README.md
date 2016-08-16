@@ -1,8 +1,8 @@
 ## About
-This project demostrates a sample react application with React ecosystem: Webpack, babel, node and npm.
+This project demostrates a sample react application that implements React Router and works with the basic React ecosystem: Webpack, babel, node and npm.
 
 ### Dependencies
-Additional dependencies outside of the ecosystem: 
+Additional dependencies outside of the ecosystem:
 react-router
 
 ### Prerequisites
@@ -21,7 +21,7 @@ npm install
 npm run start  [Run devmode via webpack-dev-server]
 ````
 
-Bring up browser at http://localhost:8080/ or http://localhost:8080/#/home?_k=q1l599
+Bring up browser at http://localhost:8080/ or http://localhost:8080/#/about?_k=q1l599 [this should hit the 'About' page route. See config/routes.js for more information]
 
 ### References
 + http://andrewhfarmer.com/getting-started-tutorials/ - Multiple references inside to various React tutorials
